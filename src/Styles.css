@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    padding-top: 20px;
+    align-items:center;
+    justify-content:center;
+    background-color: #49516d;
+    color:#fff;
+    font-size: small;
+}
+img{
+    width: 300px;
+    height:270px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+main{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    background-color:#0a0911;
+    width: 100vw;
+    height: 100vh;
+    max-height: 634px;
+    max-width: 300px;
+    border-radius: 10px;
+    line-height: 1.3em;
+    align-items:center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 12px;
+}
+h3{
+    padding-top: 7px;
+    font-size: 12.8px;
+    font-weight:400 ;
+    color: pink;
+}
+h4{
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+.email{
+    background-color: #CFCFCF;
+    color: #374151;
+    width:247px ;
+    height: 34px;
+    border-radius: 6px;
+    margin-top: 12px;
+    font-size:14px ;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px 1px rgba(65, 61, 61, 0.745);
+}
+.email:hover{
+    cursor: pointer;
+    background-color: #127475;
+    color:#f5f5f5;
+}
+.about{
+    margin: 15px;
+}
+.about>p{
+font-size: 10.24px;
+margin-top: 3px;
+font-weight: 400;
+width: 247px;
+}
+.interests>p{
+    font-size: 10.24px;
+    margin-top: 3px;
+    font-weight: 400;
+    width: 247px;
+}
+h2{
+    font-size: 16px;
+}
+footer{
+    background-color:#161619;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    margin-top:20px ;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px ;
+}
+.footerIcons-G {
+    font-size: 20px;
+    padding: 10px;
+    color: #127475;
+  }
+  .footerIcons-G:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  .footerIcons-L {
+    font-size: 20px;
+    padding: 10px;
+    color: #127475;
+  }
+  .footerIcons-L:hover {
+    color: rgb(0, 7, 207);
+    cursor: pointer;
+  }
+  .footerIcons-P {
+    font-size: 20px;
+    padding: 10px;
+    color: #127475;
+  }
+  .footerIcons-P:hover {
+    color: rgb(0, 148, 207);
+    cursor: pointer;
+  }
